@@ -1,4 +1,11 @@
 # Portfolio
+As A web developer
+I WANT a deployed portfolio
+SO THAT I can showcase my applications to potential employers and clients. 
+
 This repository was created on 12/20/2019. It has three html files, one folder "assets" with two sub-folders: "css" and "images".
-The codes in html and css files were changed on 01/07/2020. The images with jpg/png types of file are added.
-It is a responsive portfolio that is 100% wide to start until the sm breakpoint is reached.
+
+The background pattern "circuit" is downloaded from www.toptal.com/designers/subtlepatterns.
+
+The image of favicon is  a png file. 
+
