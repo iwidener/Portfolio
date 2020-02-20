@@ -9,3 +9,4 @@ The background pattern "circuit" is downloaded from www.toptal.com/designers/sub
 
 The image of favicon is  a png file. 
 
+A link to the deployed project: https://iwidener.github.io/Portfolio/
