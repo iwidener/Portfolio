@@ -106,7 +106,7 @@ h2 {
     padding-bottom: 30px;
 }
 
-#photo {
+img#photo {
     width: 200px;
     height: 250px;
     padding-left: 30px;
@@ -114,6 +114,7 @@ h2 {
     padding-top: 50px;
     padding-bottom: 30px;
     float: left;
+    border: none;
 }
 
 .clearfix {
@@ -183,27 +184,27 @@ input[type=text] {
 
 #project1 {
     width: 33.33%;
-    margin-top: 30px;
+    margin-top: 5px;
 }
 
 #project2 {
     width: 33.33%;
-    margin-top: 30px;
+    margin-top: 5px;
 }
 
 #project3 {
     width: 33.33%;
-    margin-top: 30px;
+    margin-top: 5px;
 }
 
 #project4 {
     width: 33.33%;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 #project5 {
     width: 33.33%;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 img {
@@ -212,6 +213,7 @@ img {
     border: 0 none;
     margin-right: 0;
     opacity: 0.8;
+    border: 1px solid midnightblue;
 }
 
 h3 {
@@ -228,4 +230,11 @@ h3 {
     margin-bottom: 0px;
     margin-top: 0px;
     overflow: auto;
+}
+
+a {
+    font-size: 16px;
+    font-weight: bold;
+    color: midnightblue;
+    padding-bottom: 10px;
 }
