@@ -6,11 +6,13 @@
     <title>Portfolio</title>
     <link rel="shortcut icon" type="image/png" href="../Portfolio/assets/images/22322-rose-icon.png">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css">
+    <script src="script.js"></script>
 
 </head>
 
 <body>
-    <div class="header">
+    <div class="animated slideInDown header">
         <div class="inner-header">
             <div class="name">
                 <h1>Inna Widener</h1>
@@ -32,18 +34,22 @@
             <h2>Contact</h2>
             <hr>
             <br>
+            <div id="error_message"></div>
+            <br>
 
-            <form>
+            <form id="contact-form" onsubmit="return validation()">
                 <div id="text">Name:</div>
-                <input type="text" name="firstlastname">
+                <input type="text" name="firstlastname" id="name">
 
                 <div id="text">Email:</div>
-                <input type="text" name="email">
+                <input type="text" name="email" id="email">
 
                 <div id="text">Message:</div>
-                <input type="text" name="message">
+                <input type="text" name="message" id="message">
 
-                <input type="submit" value="Submit">
+                <div class="button">
+                    <input type="submit" value="Submit">
+                </div>
 
             </form>
         </section>

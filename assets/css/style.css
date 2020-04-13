@@ -15,11 +15,11 @@ body {
     padding-bottom: 0;
     left: 0;
     top: 0;
-    height: 60px;
+    height: 58px;
     width: 100%;
     display: block;
-    background-color: #ffffff;
-    border-bottom: 3px solid #dddddd;
+    background-color: #666666;
+    border-bottom: 2px solid #666666;
 }
 
 .inner-header {
@@ -28,14 +28,13 @@ body {
     text-align: center;
     display: inline-flex;
     margin: 0 auto;
-    background: #4aaaa5;
+    background: indianred;
     float: left;
     margin-left: 150px;
 }
 
 .name {
     height: 60px;
-    display: table;
     float: left;
 }
 
@@ -51,17 +50,12 @@ h1 {
     padding-right: 30px;
 }
 
-.main-menu {
-    float: right;
-    height: 60px;
-}
-
 .main-menu li {
     height: 60px;
     vertical-align: middle;
     float: right;
 
-    padding-right: 60px;
+    padding-right: 50px;
     padding-left: 10px;
     vertical-align: middle;
     margin-top: 20px;
@@ -71,7 +65,7 @@ h1 {
     display: table;
     vertical-align: middle;
     height: 60px;
-    color: #777777;
+    color: white;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 18px;
 }
@@ -95,7 +89,7 @@ section.main-section {
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: left;
-    color: #4aaaa5; 
+    color: indianred; 
     font-size: 30px;
     padding-top: 20px;
     padding-left: 30px;
@@ -132,7 +126,7 @@ footer {
     width: 100%;
     height: 3%;
     padding: 5px;
-    border-top: 8px solid #4aaaa5;
+    border-top: 8px solid indianred;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #666666;
     text-align: center;
@@ -141,13 +135,21 @@ footer {
 
 /* This is a code for a contact webpage*/
 
+#error_message {
+margin-left: 400px;
+margin-right: 300px;
+text-align: center;
+font-weight: bold;
+background-color: gainsboro;
+}
+
 input[type=text] {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 16px;
     width: 80%;
-    height: 20px;
+    height: 10px;
     padding: 30px 50px;
-    margin: 10px 80px;
+    margin: 15px 80px;
     border: 2px solid gainsboro;
     border-radius: 4px;
     background-color: gainsboro;
@@ -160,7 +162,7 @@ div#text {
   input[type=submit] {
     width: 20%;
     height: 50px;
-    background-color:#4aaaa5 ;
+    background-color:indianred;
     color: white;
     padding: 14px 20px;
     margin: 8px 80px;
@@ -225,7 +227,7 @@ h3 {
     line-height: 15px;
     color: #ffffff;
     text-align: center;
-    background: #4aaaa5;
+    background: indianred;
     overflow: auto;
 }
 
