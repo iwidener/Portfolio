@@ -81,7 +81,7 @@ section.main-section {
     padding-left: 25px;
     padding-right: 55px;
     padding-bottom: 25px;
-    margin-top: 120px;
+    margin-top: 100px;
     margin-left: 400px;
     margin-right: 300px;
 }
@@ -178,35 +178,27 @@ div#text {
 }
 /* This is a code for a portfolio webpage*/
 
-div.projects-list {
+div.team-projects {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 60px;
+    margin-left: 100px;
 }
 
-#project1 {
-    width: 25%;
-    margin-top: 5px;
+.exemplary-homeworks {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
 }
 
-#project2 {
-    width: 25%;
-    margin-top: 5px;
-}
-
-#project3 {
-    width: 25%;
-    margin-top: 5px;
-}
-
-#project4 {
-    width: 25%;
-    margin-top: 5px;
-}
-
+#project1,
 #project5 {
-    width: 25%;
-    margin-top: 5px;
+    width: 33%;
+}
+
+#project2,
+#project3,
+#project4 {
+    width: 33%;
 }
 
 img {
