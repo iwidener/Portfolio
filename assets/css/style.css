@@ -133,51 +133,56 @@ footer {
     color: white;
 }
 
-.fa {
-    padding: 15px;
-    text-decoration: none;
-    border-radius: 90%;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
 .fa-github {
-    width: 30px;
-    height: 30px;
+    height: 50px;
+    width: 70px;
+    border-radius: 95%;
     background: black;
     color: white;
     font-weight: bold;
     text-align: center;
-    margin-top: 20px;
-    padding-top: 15px;
     margin-left: 200px;
     margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px; 
+}
+
+.fa-github:hover {
+    opacity: 0.7;
 }
 
 .fa-linkedin {
-    width: 30px;
-    height: 30px;
+    width: 45px;
+    height: 52px;
+    border-radius: 95%;
     background: #007bb5;
     color: white;
-    font-size: 60px;
+    font-size: 30px;
     font-weight: bold;
     text-align: center;
-    margin-top: 20px;
-    padding-top: 15px;
-    margin-left: 30px;
+    padding-left: 15px;
+    padding-right: 15px; 
+    margin-left: 15px;
 }
 
-.fa-file-pdf-o {
-    width: 30px;
-    height: 30px;
+.fa-linkedin:hover {
+    opacity: 0.7;
+}
+
+.fa-file-pdf {
+    width: 57px;
+    height: 52px;
+    border-radius: 95%;
     background: crimson;
     color: white;
     text-align: center;
-    margin-top: 20px;
-    padding-top: 15px;
-    margin-left: 35px;
+    padding-left: 20px;
+    padding-right: 20px; 
+    margin-left: 30px;
+}
+
+.fa-file-pdf:hover {
+    opacity: 0.7;
 }
 
 /* This is a code for a contact webpage*/
